@@ -1,7 +1,9 @@
 package main
 
-import "main/learn_bytes"
+import (
+	"main/learn_math"
+)
 
 func main() {
-	learn_bytes.LearnBytes11()
+	learn_math.LearnMath2()
 }
