@@ -25,7 +25,7 @@ func TestBufIO2() {
 	br := bufio.NewReader(s)
 	b, _ := br.ReadString('\n')
 	fmt.Println(b)
-	br.Reset(str)
+	br.Reset(str) // 清空之前读到的内容
 	b, _ = br.ReadString('\n')
 	fmt.Println(b)
 }

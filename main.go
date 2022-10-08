@@ -1,7 +1,7 @@
 package main
 
-import "main/learn_bufio"
+import "main/learn_bytes"
 
 func main() {
-	learn_bufio.TestBufIO6()
+	learn_bytes.LearnBytes11()
 }
